@@ -104,11 +104,20 @@ header {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top: 130px 0;
+    margin-top: 130px ;
 }
-
-/* about section style */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
